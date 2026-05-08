@@ -73,9 +73,9 @@ main h1 {
 
    
 .card img {
-    width: 100%;
+    width: 150%;
     max-width: 250px;
-    height: auto;
+    height: 150px;
     display: block;
     margin: 1rem auto;
     border-radius: 10px;
