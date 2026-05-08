@@ -73,14 +73,13 @@ main h1 {
 
    
 .card img {
-    width: 150%;
+    width: 100%;
     max-width: 250px;
-    height: 150px;
+    height: auto;
     display: block;
     margin: 1rem auto;
     border-radius: 10px;
 }
-
 
 /* FOOTER */
 footer {
