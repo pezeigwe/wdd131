@@ -1,0 +1,35 @@
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+main h1 {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+figure {
+    background: #ffffffc5;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+figure img {
+    width: 150%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
