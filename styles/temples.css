@@ -7,7 +7,21 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
+header, main {
+    margin-bottom: 2rem;
+}
+nav {
+    display: flex;
+    justify-content:space-around;
+    background-color: blue;
+    padding: 0.5rem;
+}
 
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
 main h1 {
     grid-column: 1 / 4;
     text-align: center;
@@ -26,7 +40,37 @@ figure img {
     object-fit: cover;
     border-radius: 10px;
 }
+/* NAVIGATION */
 
+.navigation {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.navigation a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+.navigation a:hover {
+    background-color: gray;
+    color: white;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (min-width: 768px) {
+
+    .navigation {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
+
+}
 footer {
     background-color: #1f2937;
     color: white;
