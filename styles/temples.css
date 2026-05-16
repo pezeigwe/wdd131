@@ -40,6 +40,25 @@ figure img {
     object-fit: cover;
     border-radius: 10px;
 }
+/* HAMBURGER BUTTON */
+#menu {
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* HAMBURGER ICON */
+#menu::before {
+    content: "☰";
+}
+
+/* X ICON */
+#menu.open::before {
+    content: "X";
+}
+
 /* NAVIGATION */
 
 .navigation {
